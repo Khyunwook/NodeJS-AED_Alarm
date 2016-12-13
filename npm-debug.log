@@ -1,0 +1,81 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'brycpt', '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn package.json bcrypt-pbkdf@1.0.0 No repository field.
+6 warn package.json callsite@1.0.0 No repository field.
+7 warn package.json has-binary@0.1.7 No repository field.
+8 warn package.json indexof@0.0.1 No repository field.
+9 warn package.json object-component@0.0.3 No repository field.
+10 warn package.json parsejson@0.0.1 No repository field.
+11 warn package.json parseqs@0.0.2 No repository field.
+12 warn package.json punycode@1.4.1 punycode is also the name of a node core module.
+13 warn package.json censorify@0.1.1 No repository field.
+14 warn package.json censorify@0.1.1 No README data
+15 warn package.json socketio@1.0.0 No repository field.
+16 verbose readDependencies using package.json deps
+17 verbose cache add [ 'brycpt', null ]
+18 verbose cache add name=undefined spec="brycpt" args=["brycpt",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'brycpt',
+19 verbose parsed url   path: 'brycpt',
+19 verbose parsed url   href: 'brycpt' }
+20 silly lockFile 9108c43c-brycpt brycpt
+21 verbose lock brycpt /home/ubuntu/.npm/9108c43c-brycpt.lock
+22 silly lockFile 9108c43c-brycpt brycpt
+23 silly lockFile 9108c43c-brycpt brycpt
+24 verbose addNamed [ 'brycpt', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 435aeaf1-brycpt brycpt@
+27 verbose lock brycpt@ /home/ubuntu/.npm/435aeaf1-brycpt.lock
+28 silly addNameRange { name: 'brycpt', range: '*', hasData: false }
+29 verbose request where is /brycpt
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id b6abfbe5a74226db
+32 verbose url raw /brycpt
+33 verbose url resolving [ 'https://registry.npmjs.org/', './brycpt' ]
+34 verbose url resolved https://registry.npmjs.org/brycpt
+35 verbose request where is https://registry.npmjs.org/brycpt
+36 info trying registry request attempt 1 at 11:03:50
+37 http GET https://registry.npmjs.org/brycpt
+38 http 404 https://registry.npmjs.org/brycpt
+39 silly registry.get cb [ 404,
+39 silly registry.get   { 'content-type': 'application/json',
+39 silly registry.get     'cache-control': 'max-age=0',
+39 silly registry.get     'content-length': '2',
+39 silly registry.get     'accept-ranges': 'bytes',
+39 silly registry.get     date: 'Fri, 18 Nov 2016 11:05:04 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     age: '0',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-sin6924-SIN',
+39 silly registry.get     'x-cache': 'MISS',
+39 silly registry.get     'x-cache-hits': '0',
+39 silly registry.get     'x-timer': 'S1479467104.490770,VS0,VE325',
+39 silly registry.get     vary: 'Accept-Encoding' } ]
+40 silly lockFile 435aeaf1-brycpt brycpt@
+41 silly lockFile 435aeaf1-brycpt brycpt@
+42 error 404 Not Found
+42 error 404
+42 error 404 'brycpt' is not in the npm registry.
+42 error 404 You should bug the author to publish it
+42 error 404 It was specified as a dependency of 'example'
+42 error 404
+42 error 404 Note that you can also install from a
+42 error 404 tarball, folder, or http url, or git url.
+43 error System Linux 3.13.0-74-generic
+44 error command "/usr/bin/node" "/usr/bin/npm" "install" "brycpt" "--save"
+45 error cwd /home/ubuntu/APS_project/jolp2_aps
+46 error node -v v0.10.37
+47 error npm -v 1.4.28
+48 error code E404
+49 verbose exit [ 1, true ]
